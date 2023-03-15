@@ -17,3 +17,7 @@ Empty #3; Seat is tilted at angle towards the back
 (Empty #1, was used with Person #1)
 (Empty #2, was used with Person #2)
 (Empty #3, was used with Person #3)
+
+
+file label;  [fft|adc]_Person_Profile_#1-Iteration_#1-Event_#1
+Example: fft_4_1_1
