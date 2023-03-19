@@ -27,5 +27,5 @@ Empty #3; Seat is tilted at angle towards the back
 (Empty #3, was used with Person #3)
 
 
-file label;  [fft|adc]_Person_Profile_#1-Iteration_#1-Event_#1
+file label;  [fft|adc]_Person_Profile_#number-Iteration_#number-Event_#number
 Example: fft_D_1_1 (Person_Profile_#3 - iteration count #1 - event number #1)
