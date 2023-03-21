@@ -1,0 +1,31 @@
+Key Experiment: 
+Parameter setting and reliability test of a sensor system for person detection in a car wearing winter clothes
+
+Person Profiles labels:
+#1. A
+#2. B
+#3. D
+#4. U
+
+Scenarios:
+Event #1: *With Movment - With Head Warmer, No Gloves, No Seatbelt
+Event #2: *With Movment - No Head Warmer, With Gloves, No Seatbelt
+Event #3: *With Movment - No Head Warmer, No Gloves, With Seatbelt
+Event #4: *No Movment - With Head Warmer, No Gloves, No Seatbelt
+Event #5: *No Movment - No Head Warmer, With Gloves, No Seatbelt
+Event #6: *No Movment - No Head Warmer, No Gloves, With Seatbelt
+Event #7: Dummy
+Event #8: Empty
+
+Empty/Dummy Profiles
+Empty #1; No adjustments [Normal position]
+Empty #2; Seat is moved closer to the front
+Empty #3; Seat is tilted at angle towards the back
+
+(Empty #1, was used with Person #1)
+(Empty #2, was used with Person #2)
+(Empty #3, was used with Person #3)
+
+
+file label;  [fft|adc]_Person_Profile_#number-Iteration_#number-Event_#number
+Example: fft_D_1_1 (Person_Profile_#3 - iteration count #1 - event number #1)
